@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Montserrat;
+}
+
+h2{
+    margin-top: 2rem;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 600px;
+}
+
+.container{
+    background-color: blueviolet;
+    margin-top: rem;
+    margin: auto;
+    width: 80%;
+
+}
+.headwrapper{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.head{
+   text-align: center;
+   margin-top: 15rem;
+   
+}
+.head img{
+    border: 4px solid rgb(94, 8, 170);
+    border-radius: 50%;
+    height:200px;
+    width:15%;
+    position: absolute;
+    top: 1rem;
+    right:43%;
+}
+
+.bio p{
+    margin: auto;
+    width: 84%;
+    line-height: 35.5px;
+    margin-top: 5rem;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.icon{
+    margin: auto;
+    width: 20%;
+    margin-top: 3rem;
+}
+
+.icon li{
+    cursor: pointer;
+    display: inline;  
+}
+
+li img{
+    width: 15%;
+    margin: 0 2rem 3rem 0;
+}
+
+@media(max-width: 425px){
+    h1{
+        font-size: 35px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+    
+    .container{
+        margin-top: 2rem;
+        width: 83%;
+    
+    }
+    .headwrapper{
+        width: 75%;
+        margin-top:2rem;
+    }
+    .head{
+       margin-top: 10rem;
+       
+    }
+    .head img{
+        height:90px;
+        width:20%;
+        top: 2.5rem;
+        right:42%;
+    }
+
+    .bio p{
+        width: 95%;
+        line-height: 25.5px;
+        margin-top: 3rem;
+        font-size: 13px;
+
+    }
+    
+    .icon{
+        margin: auto;
+        width: 20%;
+        margin-top: 2rem;
+    }
+
+    .icon ul{
+        display: flex;
+    }
+    
+    li img{
+        width:50%;
+        gap: 2rem;
+
+    }
+    
+}
+
+@media(max-width:375px){
+    .bio p{
+        width: 95%;
+        line-height: 20.5px;
+        margin-top: 3rem;
+        font-size: 13px;
+
+    }
+
+    .headwrapper{
+        width: 80%;
+    
+    }
+
+    .container{
+        margin-top: 2rem;
+        width: 88%;
+    
+}
+
+.head img{
+    height:80px;
+}
+
+
+}
+
+@media(max-width:320px){
+    .bio p{
+        width: 97%;
+        line-height: 18.5px;
+        font-size: 12px;
+
+    }
+
+    .container{
+        width: 90%;
+    
+}
+
+.head img{
+    height:70px;
+}
+}
+
+@media(min-width: 768px){
+    h1{
+        font-size: 45px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    .container{
+        margin-top: 3rem;
+        width: 85%;
+    
+    }
+    .headwrapper{
+        width: 80%;
+        margin-top:3rem;
+    }
+    .head{
+       margin-top: 12rem;
+       
+    }
+    .head img{
+        height:150px;
+        width:20%;
+        top: 3.5rem;
+        right:42%;
+    }
+
+    .bio p{
+        width: 90%;
+        line-height: 28.5px;
+        margin-top: 3rem;
+        font-size: 13px;
+
+    }
+    
+    .icon{
+        margin: auto;
+        width: 20%;
+        margin-top: 2rem;
+    }
+
+    .icon ul{
+        display: flex;
+    }
+    
+    li img{
+        width:50%;
+        gap: 2rem;
+
+    }
+    
+}
+
+@media(min-width:1024px){
+    .head img{
+        height:200px;
+        top: 5.5rem;
+    }
+
+    .container{
+        margin-top: 5rem;
+        width: 85%;
+    }
+
+    .head{
+        margin-top: 20rem;
+        
+     }
+
+     .bio p{
+        width: 85%;
+        font-size: 16px;
+   
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    
+    h2{
+        margin-top: 2rem;
+        font-size: 23px;
+    }
+
+    .headwrapper{
+        width: 80%;
+        margin-top:3rem;
+    }
+
+}
+
+@media(min-width:1440px){
+    .head img{
+        height: 280px;
+    }
+    
+}

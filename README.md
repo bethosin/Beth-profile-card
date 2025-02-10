@@ -1,2 +1,2 @@
-# Beth profile card
- profile card
+# My Profile Card
+ Profil Card
