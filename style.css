@@ -66,11 +66,13 @@ h2{
 
 .icon li{
     cursor: pointer;
-    display: inline;  
+    display: inline;
+    gap: 2rem;
+ 
 }
 
 li img{
-    width: 15%;
+    width: 30%;
     margin: 0 2rem 3rem 0;
 }
 
@@ -97,8 +99,8 @@ li img{
        
     }
     .head img{
-        height:90px;
-        width:20%;
+        height:100px;
+        width:25%;
         top: 2.5rem;
         right:42%;
     }
@@ -107,7 +109,7 @@ li img{
         width: 95%;
         line-height: 25.5px;
         margin-top: 3rem;
-        font-size: 13px;
+        font-size: 16px;
 
     }
     
@@ -122,8 +124,8 @@ li img{
     }
     
     li img{
-        width:50%;
-        gap: 2rem;
+        width:60%;
+        
 
     }
     
@@ -134,7 +136,7 @@ li img{
         width: 95%;
         line-height: 20.5px;
         margin-top: 3rem;
-        font-size: 13px;
+        font-size: 16px;
 
     }
 
@@ -150,7 +152,8 @@ li img{
 }
 
 .head img{
-    height:80px;
+    height:95px;
+    width: 27%;
 }
 
 
@@ -160,7 +163,7 @@ li img{
     .bio p{
         width: 97%;
         line-height: 18.5px;
-        font-size: 12px;
+        font-size: 15px;
 
     }
 
@@ -170,7 +173,8 @@ li img{
 }
 
 .head img{
-    height:70px;
+    height:80px;
+    width: 25%;
 }
 }
 
